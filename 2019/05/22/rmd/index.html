@@ -77,6 +77,12 @@
 
 <div id="test" class="section level1">
 <h1>test</h1>
+<div id="r-" class="section level2">
+<h2>学R 好开心</h2>
+<pre class="r"><code>1+1
+## 这一段不会出现</code></pre>
+<p>今天星期三，我们学R</p>
+</div>
 <div id="r-markdown" class="section level2">
 <h2>R Markdown</h2>
 <p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
@@ -93,7 +99,14 @@
 <div id="including-plots" class="section level2">
 <h2>Including Plots</h2>
 <p>You can also embed plots, for example:</p>
-<p><img src="/post/2019-05-22-rmd_files/figure-html/pressure-1.png" width="672" /></p>
+<div class="figure" style="text-align: center"><span id="fig:pressure"></span>
+<img src="/post/2019-05-22-rmd_files/figure-html/pressure-1.png" alt="Fig.1 这是一个图" width="480" />
+<p class="caption">
+Figure 1: Fig.1 这是一个图
+</p>
+</div>
+<pre class="r"><code>plot(pressure)</code></pre>
+<p><img src="/post/2019-05-22-rmd_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 <p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
 </div>
 </div>
